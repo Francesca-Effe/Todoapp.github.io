@@ -20,7 +20,7 @@
 }
 
 body{
-    min-height: 100vh;
+    max-height: 100vh;
     color: #2e2e2e;
     background:var(--gradient-bottom);
     display: flex;
@@ -38,6 +38,26 @@ body{
     display: flex;
 }
 
+@media (max-width: 768px) {
+    .wrapper {
+        height: 70vh;
+    }
+
+    .add-task-btn {
+        position: absolute;
+        bottom: 2rem; 
+        right: 1rem;
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--old-rose);
+        transition: all 0.3s;
+    }
+}
 
 
 @media (min-width:768px){
