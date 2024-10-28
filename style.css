@@ -445,7 +445,7 @@ body{
 
 @media (max-width: 767px) {
     .wrapper {
-        height: 90vh;
+        height: 100vh;
     }
 
     .add-task-btn {
